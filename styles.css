@@ -26,7 +26,7 @@ a:hover {
 
 .main-nav {
   width: 100%;
-  background: black;
+  background: #D1CB7C;
   min-height: 30px;
   padding: 10px;
   position: fixed;
@@ -45,12 +45,13 @@ a:hover {
 }
 .nav li {
   padding: 5px 10px 10px 10px;
+  color: white;
 }
 .nav a {
   transition: all .5s;
 }
 .nav a:hover {
-  color: white
+  color: #b9f3d3;
 }
 
 header {
@@ -65,18 +66,18 @@ header {
 }
 header .profile-image {
   margin-top: 50px;
-  width: 300px;
-  height: 300px;
+  width: 250x;
+  height: 250px;
   border-radius: 50%;
   border: 3px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
-  transform: scale(1.5) rotate(360deg);
+  transform: scale(1.2) rotate(360deg);
 }
 .tag {
-  background-color: salmon;
-  color: black;
+  background-color: #eac490;
+  color: white;
   padding: 10px;
   border-radius: 5px;
   display: table;
@@ -96,7 +97,7 @@ header .profile-image:hover {
   border-radius: 6px;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #b9f3d3;
 }
 
 ul.skills {
@@ -107,14 +108,14 @@ ul.skills {
 .skills li {
   border-radius: 6px;
   display: inline-block;
-  background: #ff9904;
+  background: #b9f3d3;
   color: white;
   padding: 5px 10px;
   margin: 2px;
 }
 
 .skills li:nth-child(odd) {
-  background: #0399ff;
+  background: #eac490;
 }
 
 footer {
@@ -149,8 +150,8 @@ a.social {
   opacity: .5;
   transition: all .25s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
+a.medium {
+  background-image: url(images/medium.svg);
 }
 a.linkedin {
   background-image: url(images/linkedin.svg);
