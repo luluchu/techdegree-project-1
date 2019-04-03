@@ -1,3 +1,40 @@
+a {
+  text-decoration: none;
+  color: #94d2fc;
+}
+a:hover {
+  color: white;
+}
+
+.main-nav {
+  width: 100%;
+  background: #E1C5D1;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  display: none;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+  color: white;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: ;
+}
+
 .date {
 	text-transform: uppercase;
 	color: #3498db;
@@ -5,7 +42,7 @@
 	font-size: 1.1em;
 }
 
-h2	{ 
+h2	{
 	color: #2c3e50;
  }
 
@@ -19,9 +56,8 @@ body {
 	margin: auto;
 	width: 80%;
 	max-width: 700px;
-	border: 20px solid #bdc3c7;
 	font-family: source sans pro;
-	padding: 20px;
+	padding: 40px;
 }
 
 
