@@ -49,9 +49,33 @@ img {
 	width: 30%;
 	float:right;
 	margin: 1.66%;
+  display: flex;
 }
 
 p {
-
 	padding: 20px;
 }
+
+/* Styles for larger screens */
+@media screen and (min-width: 720px) {
+
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 100px;
+  }
+
+  .nav {
+    max-width: 1200px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    color: white;
+  }
