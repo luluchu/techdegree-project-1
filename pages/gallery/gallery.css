@@ -1,7 +1,5 @@
 
 body {
-  margin: 0;
-  padding: 0;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
@@ -54,13 +52,6 @@ img {
 }
 
 p {
-	font-family: raleway;
-	margin-left: 1.66%;
-	font-size: 23px;
-	font-weight: 800;
-	text-transform: uppercase;
-	border-bottom: 3px solid #f1f1f1;
-	width: 30%;
-	padding: 20px;
 
+	padding: 20px;
 }
